@@ -1,6 +1,9 @@
 import React, { useState, useRef } from 'react';
 import './App.css';
 import File  from './components/File';
+import Count from './components/Count';
+import StateForm from './components/StateForm';
+import RefForm from './components/RefForm';
 
 function App() {
   const inputEl = useRef(null);
@@ -19,6 +22,15 @@ function App() {
       <button onClick={handleOnClick}>フォーカスを当てる</button>
       <div>
         <File />
+      </div>
+      <div>
+        <Count />
+      </div>
+      <div>
+        <StateForm />
+      </div>
+      <div>
+        <RefForm />
       </div>
     </div>
   );
