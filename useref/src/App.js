@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './App.css';
+import File  from './components/File';
 
 function App() {
   const inputEl = useRef(null);
@@ -16,6 +17,9 @@ function App() {
       <input ref={inputEl} type='text' value={name} onChange={handleOnChange} />
       <p>名前： {name}</p>
       <button onClick={handleOnClick}>フォーカスを当てる</button>
+      <div>
+        <File />
+      </div>
     </div>
   );
 }
