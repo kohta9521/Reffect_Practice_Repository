@@ -17,7 +17,7 @@ const menu = [
   {
     title: "Services",
     description: "To Send Our Services",
-    images: ['contact1.jpg', 'contact2.jpg']
+    images: ['sample1.jpg', 'sample2.jpg']
   },
   {
     title: "Recruit",
