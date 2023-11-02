@@ -46,11 +46,11 @@ export const slideLeft = {
     },
     enter: {
         x: 0,
-        transition: {duration: 0.5, ease: [0.33, 1, 0.68, 1]}
+        transition: {duration: 1, ease: [0.33, 1, 0.68, 1]}
     },
     exit: {
         x: 150,
-        transition: {duration: 0.5, ease: [0.33, 1, 0.68, 1]}
+        transition: {duration: 1, ease: [0.33, 1, 0.68, 1]}
     }
 }
 
@@ -62,11 +62,11 @@ export const rotateX = {
     enter: (i) => ({
         rotateX: 0,
         opacity: 1,
-        transition: {duration: 0.5, ease: [0.33, 1, 0.68, 1], delay: 0.3 + (i * 0.05)}
+        transition: {duration: 1, ease: [0.33, 1, 0.68, 1], delay: 0.3 + (i * 0.05)}
     }),
     exit: {
         opacity: 0,
-        transition: {duration: 0.5, ease: [0.33, 1, 0.68, 1]}
+        transition: {duration: 1, ease: [0.33, 1, 0.68, 1]}
     }
 }
 
